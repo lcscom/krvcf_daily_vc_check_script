@@ -14,8 +14,8 @@ Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -ParticipateInCEIP $f
 # 1. 환경 및 계정 설정
 # ------------------------------------------------------------
 $vcAccounts = @{
-    "vcsa01.rangers.lab"       = @{ User = "administrator@vsphere.local"; Pass = "Rangers123!" }
-    "kr-vcs9-mgmt.rangers.lab" = @{ User = "administrator@vsphere.local"; Pass = "VMware123!VMware123!" }
+    "vcsa01.rangers.lab"       = @{ User = "administrator@vsphere.local"; Pass = "VMware123!" }
+    "kr-vcs9-mgmt.rangers.lab" = @{ User = "administrator@vsphere.local"; Pass = "VMware123!" }
 }
 
 # Gmail SMTP 설정 (16자리 앱 비밀번호 사용)
